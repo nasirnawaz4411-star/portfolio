@@ -13,7 +13,6 @@ import {
   SiGithub as SiGithubIcon,
 } from "react-icons/si";
 
-import ThemeToggle from "../Components/ThemeToggle";
 import ContactForm from "../Components/ContactForm";
 import SectionHeading from "../Components/SectionHeading";
 import SkillCard from "../Components/SkillCard";
@@ -89,7 +88,7 @@ const services = [
 
 const socials = [
   { name: "GitHub", icon: FiGithub, href: "https://github.com/nasirnawaz" },
-  { name: "LinkedIn", icon: FiLinkedin, href: "https://linkedin.com/in/nasirnawaz" },
+  { name: "LinkedIn", icon: FiLinkedin, href: "https://youtu.be/I_au2aDUA9c?si=uISit-allzb5iTEk" },
 ];
 
 export default function Home() {
@@ -102,16 +101,13 @@ export default function Home() {
       <header className="sticky top-0 z-50 border-b border-slate-200/40 bg-slate-50/90 backdrop-blur-xl dark:border-white/10 dark:bg-slate-950/80">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
           <a href="#hero" className="font-semibold text-slate-950 dark:text-white">Nasir Nawaz</a>
-          <div className="flex items-center gap-4">
-            <nav className="hidden items-center gap-6 text-sm text-slate-700 dark:text-slate-300 md:flex">
-              <a href="#about" className="transition hover:text-slate-950 dark:hover:text-white">About</a>
-              <a href="#skills" className="transition hover:text-slate-950 dark:hover:text-white">Skills</a>
-              <a href="#projects" className="transition hover:text-slate-950 dark:hover:text-white">Projects</a>
-              <a href="#services" className="transition hover:text-slate-950 dark:hover:text-white">Services</a>
-              <a href="#contact" className="transition hover:text-slate-950 dark:hover:text-white">Contact</a>
-            </nav>
-            <ThemeToggle />
-          </div>
+          <nav className="hidden items-center gap-6 text-sm text-slate-700 dark:text-slate-300 md:flex">
+            <a href="#about" className="transition hover:text-slate-950 dark:hover:text-white">About</a>
+            <a href="#skills" className="transition hover:text-slate-950 dark:hover:text-white">Skills</a>
+            <a href="#projects" className="transition hover:text-slate-950 dark:hover:text-white">Projects</a>
+            <a href="#services" className="transition hover:text-slate-950 dark:hover:text-white">Services</a>
+            <a href="#contact" className="transition hover:text-slate-950 dark:hover:text-white">Contact</a>
+          </nav>
         </div>
       </header>
 
