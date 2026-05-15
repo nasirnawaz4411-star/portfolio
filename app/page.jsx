@@ -38,7 +38,7 @@ const projects = [
     description:
       "A scalable storefront with secure checkout, inventory management, and performance-first UX built with React, Node.js, and MongoDB.",
     stack: ["React", "Node.js", "MongoDB", "Stripe"],
-    github: "https://github.com/nasirnawaz/ecommerce-mern",
+    github: "https://github.com/nasirnawaz4411-star",
     demo: "#",
   },
   {
@@ -46,7 +46,7 @@ const projects = [
     description:
       "A polished personal brand experience for clients and recruiters, featuring responsive layouts, smooth animation, and strong visual hierarchy.",
     stack: ["Next.js", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/nasirnawaz/portfolio-nextjs",
+    github: "https://github.com/nasirnawaz4411-star",
     demo: "#",
   },
   {
@@ -54,7 +54,7 @@ const projects = [
     description:
       "A collaborative productivity tool with task boards, status tracking, and real-time updates designed for modern teams.",
     stack: ["React", "Express", "MongoDB"],
-    github: "https://github.com/nasirnawaz/task-manager",
+    github: "https://github.com/nasirnawaz4411-star",
     demo: "#",
   },
   {
@@ -62,7 +62,7 @@ const projects = [
     description:
       "A CMS-style blog platform with custom admin flow, rich content editing, and SEO-friendly pages for fast publishing.",
     stack: ["Next.js", "Node.js", "MongoDB"],
-    github: "https://github.com/nasirnawaz/mern-blog",
+    github: "https://github.com/nasirnawaz4411-star",
     demo: "#",
   },
 ];
@@ -87,8 +87,8 @@ const services = [
 ];
 
 const socials = [
-  { name: "GitHub", icon: FiGithub, href: "https://github.com/nasirnawaz" },
-  { name: "LinkedIn", icon: FiLinkedin, href: "https://youtu.be/I_au2aDUA9c?si=uISit-allzb5iTEk" },
+  { name: "GitHub", icon: FiGithub, href: "https://github.com/nasirnawaz4411-star" },
+  { name: "LinkedIn", icon: FiLinkedin, href: "https://github.com/nasirnawaz4411-star" },
 ];
 
 export default function Home() {
@@ -234,7 +234,7 @@ export default function Home() {
               <div className="mt-8 space-y-4 text-sm text-slate-300">
                 <div>
                   <p className="font-semibold text-white">Email</p>
-                  <p>hello@nasirnawaz.dev</p>
+                  <p>nasirnawaz4411@gmail.com</p>
                 </div>
                 <div>
                   <p className="font-semibold text-white">Availability</p>
